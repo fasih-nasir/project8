@@ -1,0 +1,136 @@
+
+      html, body {
+  margin: 0;
+  font-family: Verdana,sans-serif;
+  padding: 0;
+}
+      div{
+        position: fixed;
+        width: 100%;
+        /* margin-top: -14px;
+         */
+         top: -10px;
+        padding: 1px;
+        background-color: rgb(255, 255, 255);
+}
+div > ul > li{
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: -3px;
+    /* height: 40px; */
+    /* border: 2px solid ; */
+    
+    transition: transform 0.3s ease-out; 
+}
+input{
+    border-radius: 10px;
+    outline: 1px solid white;
+    padding: 8px;
+    border: 1px solid rgb(225, 224, 224);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+   
+    background-color:#282a35;
+}
+nav > ul > li{
+    padding: 6px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+
+    color: white;
+
+}
+button{
+    background-color: #04aa6d;
+    color: white;
+    padding: 10px;
+border: 1px solid #04aa6d;border-radius:20px ;
+}
+.over{
+    background-color: rgb(230, 229, 229);
+    height: 85vh;
+    width:20%;
+margin-top: -18px;
+z-index: 2;
+display: inline-block;
+overflow-y: scroll;
+top: 132px;
+position: fixed;
+}
+h3{
+    font-weight: 300;
+    text-align: center;
+    margin-top: -2px;
+}
+.over > ul > li{
+    display: block;
+  
+    margin-left: -40px;
+  
+    font-size: 15px;
+    padding: 5px;
+    /* margin-top: 5px; */
+    text-transform: capitalize;
+}
+.over::-webkit-scrollbar-thumb{
+    height: 2px;
+}
+.centre{
+    z-index: -00001;
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 60%;
+    display: inline-block;
+top: 120px;
+left: 280px;
+
+position: absolute;
+ 
+}
+h1{
+    font-weight: 400;
+}
+
+.box-1 {
+  
+    height: 180px;
+    padding: 10px;
+    margin: 5px;
+   
+    background-color: rgb(201, 233, 233);
+}
+ p {
+    display: block;
+}
+.over > ul > li:hover{
+    background-color: grey;
+    color:white;
+    text-align: left;
+    border-bottom: 1px solid grey;
+    /* padding: 5px; */
+    
+}
+div > ul > li:hover{
+    border-bottom: 1px solid #04aa6d;
+
+    padding: 7px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    background-color: #04aa6d;
+transform: scale(1);
+    /* transition: 0.1s ease-in-out; */
+
+}
+nav > ul > li > a:hover{
+    background-color:#42475a;
+    /* padding: 1px; */
+    height: 50px;
+} 
